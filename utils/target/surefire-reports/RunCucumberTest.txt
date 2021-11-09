@@ -1,4 +1,30 @@
 -------------------------------------------------------------------------------
 Test set: RunCucumberTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.512 sec
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.543 sec <<< FAILURE!
+Adding a drink to an order(Ordering drinks)  Time elapsed: 0.031 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'Tom who wants to create an Order' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("Tom who wants to create an Order")
+public void tom_who_wants_to_create_an_order() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Jerry is declared as recipient")
+public void jerry_is_declared_as_recipient() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("a {string} is added to the order")
+public void a_is_added_to_the_order(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the order contains {int} drink")
+public void the_order_contains_drink(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
