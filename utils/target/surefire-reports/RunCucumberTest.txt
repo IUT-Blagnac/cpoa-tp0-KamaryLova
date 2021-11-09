@@ -1,25 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: RunCucumberTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.471 sec <<< FAILURE!
-Creating an empty order(Ordering drinks)  Time elapsed: 0.157 sec  <<< ERROR!
-io.cucumber.junit.UndefinedStepException: The step 'Romeo who wants to create an Order' and 2 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("Romeo who wants to create an Order")
-public void romeo_who_wants_to_create_an_order() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("Juliet is declared as recipient")
-public void juliet_is_declared_as_recipient() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("the order does not contain any drinks")
-public void the_order_does_not_contain_any_drinks() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.512 sec
